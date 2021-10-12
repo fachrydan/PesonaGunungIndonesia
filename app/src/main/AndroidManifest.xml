@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pifachry.pesonagunungindonesia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_mountain"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_mountain"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PesonaGunungIndonesia">
+
+        <activity android:name=".ui.AboutDeveloper" />
+        <activity android:name=".ui.DetailGunung" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.AboutApps" />
+        <activity android:name=".ui.HomeActivity"/>
+            <activity android:name=".ui.SplashScreenActivity"
+                android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
